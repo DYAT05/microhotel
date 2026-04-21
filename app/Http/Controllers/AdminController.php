@@ -181,6 +181,17 @@ class AdminController extends Controller
             ]);
             
             $admin = BeaneryUser::findOrFail($id);
+
+        // dyat
+
+         } else if($request->accounttype == "kitchen") {
+            $request->validate([
+                'name' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'string', 'max:255'],
+            ]);
+            
+            $admin = BeaneryUser::findOrFail($id);
+        //dyat
         } else if($request->accounttype == "stockcontroller") {
             $request->validate([
                 'name' => ['required', 'string', 'max:255'],

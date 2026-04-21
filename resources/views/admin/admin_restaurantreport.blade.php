@@ -298,6 +298,7 @@
                     <div class="opacity-1"></div>
                       <button type="submit"  style ="position: relative; top: 20px;" class="bg-[#259F6C] w-[120px] mt-1 py-2 text-white rounded-md">Preview</button>
                   </div>
+                  
                 </div>
             </form>
 
